@@ -1,11 +1,11 @@
-jekyll-grid
+Picnic Technologies Open Source Website
 =========================
 
-Jekyll theme ideal for projects; displays posts in a grid
+Showcasing our latest open-source projects.
 
-View the example: http://femmebot.github.io/jekyll-grid.
+Live at: [http://picnic.tech](http://picnic.tech)
 
-Requires jekyll-sitemap: 
-```
-gem install jekyll-sitemap
-```
+### Built using
++ [GitHub Pages](https://pages.github.com/)
++ [Jekyll](https://jekyllrb.com/)
++ [Jekyll-grid theme](http://femmebot.github.io/jekyll-grid)
