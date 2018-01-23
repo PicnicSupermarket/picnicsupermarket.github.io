@@ -1,0 +1,22 @@
+---
+layout: home
+---
+
+<div class="posts clearfix">
+  {% for post in site.posts %}
+    <article class="post">    
+      <div class="eyebrow">{{ post.technology }}</div>
+      <!-- <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> -->
+      <h1><a href="{{ post.proj-url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        <p>{{ post.desc }}</p>
+        <img src="{{baseurl}}/images/{{ post.image }}" style="border: #959ba2 1px solid;"/></a>
+<!--         {{ post.content | truncatewords:40}}
+ -->  </div>
+      
+      <!-- <a href="{{ post.proj-url }}" class="small-link primary-link" target="_blank">Github</a> -->
+      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read details</a> -->
+    </article>
+  {% endfor %}
+</div>
