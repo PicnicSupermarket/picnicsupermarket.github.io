@@ -173,7 +173,6 @@ p {
   font-size: 26px;
   font-weight: 300;
   line-height: 30px;
-  max-width: 310px;
   margin-bottom: 100px;
 }
 @media screen and (max-width: 640px) {
