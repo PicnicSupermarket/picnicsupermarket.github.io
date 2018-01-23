@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/Pingdom-Probes/</loc>
+<loc>http://localhost:4000/Salesforce-Connector/</loc>
 <lastmod>2018-01-01T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Finger-Paint-View/</loc>
+<loc>http://localhost:4000/Sherlock-Holmes/</loc>
+<lastmod>2018-01-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Pingdom-Probes/</loc>
 <lastmod>2018-01-02T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Babelicious/</loc>
+<loc>http://localhost:4000/Finger-Paint-View/</loc>
 <lastmod>2018-01-03T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Salesforce-Support/</loc>
+<loc>http://localhost:4000/Babelicious/</loc>
 <lastmod>2018-01-04T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Error-Prone/</loc>
-<lastmod>2018-01-05T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/404/</loc>

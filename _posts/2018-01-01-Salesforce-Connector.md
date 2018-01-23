@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Salesforce
+title: Salesforce Connector
 technology: Java
 image: coming-soon.png
 desc: A simple and clean Java client to interact with Salesforce's bulk API.

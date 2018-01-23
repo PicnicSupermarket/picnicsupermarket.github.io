@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Error-Prone-Contrib
+title: Sherlock Holmes
 technology: Java
 image: coming-soon.png
 desc: This project provides a plugin containing a collection of Error Prone checks.
