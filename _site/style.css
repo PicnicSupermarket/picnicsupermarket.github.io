@@ -65,7 +65,7 @@ html {
 
 body {
   background: #fff;
-  font: 16px/23px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/23px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
   color: #777;
   -webkit-font-smoothing: antialiased;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
   color: #555;
   font-weight: 700;
   line-height: 1.25;
@@ -113,7 +113,7 @@ h1 a:hover {
   float: left;
   vertical-align: top;
   margin: 0 20px 0 0;
-  height: 430px;
+  height: 480px;
   overflow: hidden;
 }
 @media screen and (max-width: 640px) {
@@ -228,7 +228,7 @@ blockquote {
   margin: 1.8em .8em;
   padding: 0.1em 1em;
   background-color: #f2f2f2;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
 }
 
 img {
@@ -307,7 +307,7 @@ img {
   margin: 0;
   color: #555;
   cursor: pointer;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 300;
   font-size: 28px;
 }
@@ -315,7 +315,7 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   font-size: 14px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
 }
 @media screen and (max-width: 640px) {
   .site-description {
@@ -326,7 +326,7 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
   font-size: 12px;
 }
 @media screen and (max-width: 640px) {
@@ -417,7 +417,7 @@ footer {
   margin: -5px 0 0 0;
   font-size: 14px;
   color: #FFFFFF;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
 }
 @media screen and (max-width: 640px) {
   .footer-description {
