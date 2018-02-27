@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Picnic Technologies</title>
-    <description>A humble milkman standing on the shoulder of giants.</description>
+    <title>picnic.tech</title>
+    <description>A humble milkman standing on the shoulder of giants</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     

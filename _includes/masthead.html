@@ -1,11 +1,24 @@
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
+<!-- Top Header -->
 
-          <nav>
-            <a href="{{ site.githuburl }}">github.com/PicnicSupermarket</a>
-          </nav>
-        </header>
+<div class="wrapper-masthead">
+  <div class="container">
+    <header class="masthead">
+      
+      <nav class="rectangle">
+        <a href="{{ site.githuburl }}">github.com/PicnicSupermarket<span class="chevron"/></a>
+      </nav>
+
+      <div class="top-header">
+        <div>
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
+        </div>
+
+        <div class="top-header-tag">
+            <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+        </div>
       </div>
-    </div>
+
+    </header>
+  </div>
+</div>

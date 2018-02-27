@@ -22,13 +22,20 @@ body {
   font: 16px/23px $roboto;
   color: $gray;
   -webkit-font-smoothing: antialiased;
+  margin:0px;
+  padding:0px;
+  width:100%;
 }
 
 .container {
   margin: 0 auto;
   max-width: 980px;
-  padding: 0 10px;
   width: 100%;
+
+  @include mobile {
+    padding: 0;
+  }
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +50,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-  
+
+.top-header {
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.top-header-tag {
+  display: flex-wrap;
+  flex-direction: column;
+
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 h1 {  
   font-size: 60px;
   margin: 60px 0;
@@ -52,6 +80,17 @@ h1 {
     &:hover {
       color: $darkRed;
     }
+  }
+}
+
+.posts {
+  margin-top: 44px;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -68,6 +107,7 @@ h1 {
   margin: 0 20px 0 0;
   height: 480px;
   overflow: hidden;
+
   @include mobile {
     margin: 0 20px;
     width: 300px;
@@ -81,20 +121,46 @@ h1 {
   margin: 0 0 12px;
   letter-spacing: normal;
   font-weight: 700;
+
+  @include mobile {
+    min-height: 10px;
+  }
 }
 
 #home h1.site-name {
-  font-size: 72px;
+  font-size: 55px;
   line-height: 74px;
   font-weight: 700;
   margin-top: 30px;
   margin-bottom: 20px;
   letter-spacing: -.03em;
+  background-color: $darkerGray;
+  padding: 0px 20px 15px 20px;
   a {
-    color: $darkGray;
+    color: $white;
   }
   @include mobile {
-    margin: 30px 20px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+#home p.site-description {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 100px;
+  color: $white;
+  font-size: 15px;
+  background-color: $darkerGray;
+  padding: 7px 20px 7px 20px;
+  margin-bottom: 20px;
+  
+  @include mobile {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 14pt;
   }
 }
 
@@ -118,18 +184,14 @@ p {
   margin: 15px 0;
 }
 
-#home p.site-description {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 30px;
-  margin-bottom: 100px;
-  @include mobile {
-    margin: 30px 20px 60px 20px;
-  }
-}
+
 #home .entry p {
   color: $gray;
   height: 110px;
+
+  @include mobile {
+    height: 60px;
+  }
 }
 
 a {
@@ -201,7 +263,7 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
+    content: "";
     display: table;
 }
 
@@ -215,25 +277,33 @@ img {
 
 .content-wrapper {
   min-height: 600px;
+  min-width: 800px;
+  
+  @include mobile {
+    min-width: 300px;
+  }
 }
 .masthead {
-  padding: 20px 0 0;
-  border-bottom: 1px solid $lightGray;
-  @include mobile {
-    text-align: center;
-  }
+  padding: 20px 0 40px 0;
+}
+
+.wrapper-masthead {
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .site-avatar {
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
   margin-right: 15px;
   margin-bottom: 15px;
   @include mobile {
     float: none;
     display: block;
-    margin: 0 0 0 10px;
+    margin-top: 30px;
   }
 }
 
@@ -253,17 +323,61 @@ img {
   cursor: pointer;
   font-family: $roboto; 
   font-weight: 300;
-  font-size: 28px;
+  height:80px;
+  display: inline-block;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: -5px 0 0 0px;
   font-size: 14px;
   font-family: $roboto;
+  position: relative;
+  display: inline-block;
+}  
+
+.rectangle {
+  width: 220px;
+  margin-top: 0px;
+  margin-right: 50px;
+	border-radius: 24px;
+  background-color: #f2f2f2;
   
   @include mobile {
-    margin: 3px 0;
+    display: none;
   }
+}
+
+.chevron::before {
+  position: absolute;
+  float: right;
+	border-style: solid;
+	border-width: 0.13em 0.13em 0 0;
+	content: '';
+	height: 0.55em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(45deg);
+	vertical-align: top;
+	width: 0.55em;
+  color: #cccccc;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.chevron.right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.chevron.bottom:before {
+	top: 0;
+	transform: rotate(135deg);
+}
+
+.chevron.left:before {
+	left: 0.25em;
+	transform: rotate(-135deg);
 }
 
 nav {
@@ -273,16 +387,16 @@ nav {
   font-size: 12px;
   
   @include mobile {
-    float: none;
+    visibility: hidden;
     margin-top: 9px;
-    display: block;
   }
 
   a {
     margin-left: 20px;
-    color: $gray;
-    width: 225px;
+    color: #666666;
+    width: 200px;
     display: block;
+    font-weight: 500;
     float: right;
 
     @include mobile {
@@ -352,7 +466,7 @@ article {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #e1171e;
+  background-color: $red;
 }
 
 footer {
