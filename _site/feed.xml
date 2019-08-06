@@ -3,79 +3,79 @@
   <channel>
     <title>picnic.tech</title>
     <description>A humble milkman standing on the shoulder of giants</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://picnic.tech/</link>
+    <atom:link href="http://picnic.tech//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Reactive Support</title>
         <description>
 </description>
-        <pubDate>Fri, 05 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Reactive-Support/</link>
-        <guid isPermaLink="true">http://localhost:4000/Reactive-Support/</guid>
+        <pubDate>Fri, 05 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Reactive-Support/</link>
+        <guid isPermaLink="true">http://picnic.tech//Reactive-Support/</guid>
       </item>
     
       <item>
         <title>Apibot</title>
         <description>
 </description>
-        <pubDate>Thu, 04 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Api-Bot/</link>
-        <guid isPermaLink="true">http://localhost:4000/Api-Bot/</guid>
+        <pubDate>Thu, 04 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Api-Bot/</link>
+        <guid isPermaLink="true">http://picnic.tech//Api-Bot/</guid>
       </item>
     
       <item>
         <title>FingerPaintView</title>
         <description>
 </description>
-        <pubDate>Wed, 03 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Finger-Paint-View/</link>
-        <guid isPermaLink="true">http://localhost:4000/Finger-Paint-View/</guid>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Finger-Paint-View/</link>
+        <guid isPermaLink="true">http://picnic.tech//Finger-Paint-View/</guid>
       </item>
     
       <item>
         <title>Pingdom Probes</title>
         <description>
 </description>
-        <pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Pingdom-Probes/</link>
-        <guid isPermaLink="true">http://localhost:4000/Pingdom-Probes/</guid>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Pingdom-Probes/</link>
+        <guid isPermaLink="true">http://picnic.tech//Pingdom-Probes/</guid>
       </item>
     
       <item>
         <title>Sherlock Holmes</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Sherlock-Holmes/</link>
-        <guid isPermaLink="true">http://localhost:4000/Sherlock-Holmes/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Sherlock-Holmes/</link>
+        <guid isPermaLink="true">http://picnic.tech//Sherlock-Holmes/</guid>
       </item>
     
       <item>
         <title>Salesforce Connector</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Salesforce-Connector/</link>
-        <guid isPermaLink="true">http://localhost:4000/Salesforce-Connector/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Salesforce-Connector/</link>
+        <guid isPermaLink="true">http://picnic.tech//Salesforce-Connector/</guid>
       </item>
     
       <item>
         <title>Nep-Snowplow</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Nep-Snowplow/</link>
-        <guid isPermaLink="true">http://localhost:4000/Nep-Snowplow/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Nep-Snowplow/</link>
+        <guid isPermaLink="true">http://picnic.tech//Nep-Snowplow/</guid>
       </item>
     
       <item>
         <title>Babelicious</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Babelicious/</link>
-        <guid isPermaLink="true">http://localhost:4000/Babelicious/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://picnic.tech//Babelicious/</link>
+        <guid isPermaLink="true">http://picnic.tech//Babelicious/</guid>
       </item>
     
   </channel>
