@@ -1,1 +1,1 @@
-Sitemap: http://picnic.tech//sitemap.xml
+Sitemap: http://picnic.tech/sitemap.xml

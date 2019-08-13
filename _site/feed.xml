@@ -3,79 +3,79 @@
   <channel>
     <title>picnic.tech</title>
     <description>A humble milkman standing on the shoulder of giants</description>
-    <link>http://picnic.tech/</link>
-    <atom:link href="http://picnic.tech//feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://picnic.tech</link>
+    <atom:link href="http://picnic.tech/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Jolo</title>
         <description>
 </description>
-        <pubDate>Tue, 06 Aug 2019 00:00:00 -0500</pubDate>
-        <link>http://picnic.tech//Jolo/</link>
-        <guid isPermaLink="true">http://picnic.tech//Jolo/</guid>
+        <pubDate>Tue, 06 Aug 2019 00:00:00 +0200</pubDate>
+        <link>http://picnic.tech/Jolo/</link>
+        <guid isPermaLink="true">http://picnic.tech/Jolo/</guid>
       </item>
     
       <item>
         <title>Reactive Support</title>
         <description>
 </description>
-        <pubDate>Fri, 05 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Reactive-Support/</link>
-        <guid isPermaLink="true">http://picnic.tech//Reactive-Support/</guid>
+        <pubDate>Fri, 05 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Reactive-Support/</link>
+        <guid isPermaLink="true">http://picnic.tech/Reactive-Support/</guid>
       </item>
     
       <item>
         <title>FingerPaintView</title>
         <description>
 </description>
-        <pubDate>Wed, 03 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Finger-Paint-View/</link>
-        <guid isPermaLink="true">http://picnic.tech//Finger-Paint-View/</guid>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Finger-Paint-View/</link>
+        <guid isPermaLink="true">http://picnic.tech/Finger-Paint-View/</guid>
       </item>
     
       <item>
         <title>Pingdom Probes</title>
         <description>
 </description>
-        <pubDate>Tue, 02 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Pingdom-Probes/</link>
-        <guid isPermaLink="true">http://picnic.tech//Pingdom-Probes/</guid>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Pingdom-Probes/</link>
+        <guid isPermaLink="true">http://picnic.tech/Pingdom-Probes/</guid>
       </item>
     
       <item>
         <title>Sherlock Holmes</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Sherlock-Holmes/</link>
-        <guid isPermaLink="true">http://picnic.tech//Sherlock-Holmes/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Sherlock-Holmes/</link>
+        <guid isPermaLink="true">http://picnic.tech/Sherlock-Holmes/</guid>
       </item>
     
       <item>
         <title>Salesforce Connector</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Salesforce-Connector/</link>
-        <guid isPermaLink="true">http://picnic.tech//Salesforce-Connector/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Salesforce-Connector/</link>
+        <guid isPermaLink="true">http://picnic.tech/Salesforce-Connector/</guid>
       </item>
     
       <item>
         <title>Nep-Snowplow</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Nep-Snowplow/</link>
-        <guid isPermaLink="true">http://picnic.tech//Nep-Snowplow/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Nep-Snowplow/</link>
+        <guid isPermaLink="true">http://picnic.tech/Nep-Snowplow/</guid>
       </item>
     
       <item>
         <title>Babelicious</title>
         <description>
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://picnic.tech//Babelicious/</link>
-        <guid isPermaLink="true">http://picnic.tech//Babelicious/</guid>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://picnic.tech/Babelicious/</link>
+        <guid isPermaLink="true">http://picnic.tech/Babelicious/</guid>
       </item>
     
   </channel>
