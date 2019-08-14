@@ -11,9 +11,9 @@ footer-links:
 
 google_analytics: UA-113533260-1
 
-url: http://picnic.tech/
+url: http://picnic.tech
 baseurl: ""
-githuburl: https://github.com/PicnicSupermarket/
+githuburl: https://github.com/PicnicSupermarket
 
 markdown: kramdown
 permalink: /:title/
