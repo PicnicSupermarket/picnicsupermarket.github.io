@@ -6,12 +6,12 @@ Showcasing our latest open-source projects.
 Live at: [http://picnic.tech](http://picnic.tech)
 
 ## How to build locally
-1. Install [Jekyll](https://jekyllrb.com/docs/quickstart/) and the plugin we use. In short:
-   * `> gem install bundler jekyll jekyll-sitemap jemoji`
+1. Make sure you have bundler installed, if not run `gem install bundler`
 2. `> git clone git@github.com:PicnicSupermarket/picnicsupermarket.github.io.git`
-3. `> cd picnicsupermarket.github.io`
-3. `> jekyll serve`
-4. View at `http://127.0.0.1:4000`
+3. Run `bundle install` to install all dependencies
+4. `> cd picnicsupermarket.github.io`
+5. `> jekyll serve`
+6. View at `http://127.0.0.1:4000`
 
 ## How to add a new project
 1. Create a new file in the `_posts` folder which follows the naming conventions.
