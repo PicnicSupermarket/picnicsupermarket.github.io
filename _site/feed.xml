@@ -3,16 +3,16 @@
   <channel>
     <title>picnic.tech</title>
     <description>A humble milkman standing on the shoulder of giants</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://picnic.tech</link>
+    <atom:link href="http://picnic.tech/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Aegis</title>
         <description>
 </description>
         <pubDate>Tue, 20 Aug 2019 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/Aegis/</link>
-        <guid isPermaLink="true">http://localhost:4000/Aegis/</guid>
+        <link>http://picnic.tech/Aegis/</link>
+        <guid isPermaLink="true">http://picnic.tech/Aegis/</guid>
       </item>
     
       <item>
@@ -20,8 +20,8 @@
         <description>
 </description>
         <pubDate>Wed, 14 Aug 2019 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/Jolo/</link>
-        <guid isPermaLink="true">http://localhost:4000/Jolo/</guid>
+        <link>http://picnic.tech/Jolo/</link>
+        <guid isPermaLink="true">http://picnic.tech/Jolo/</guid>
       </item>
     
       <item>
@@ -29,8 +29,8 @@
         <description>
 </description>
         <pubDate>Fri, 05 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Reactive-Support/</link>
-        <guid isPermaLink="true">http://localhost:4000/Reactive-Support/</guid>
+        <link>http://picnic.tech/Reactive-Support/</link>
+        <guid isPermaLink="true">http://picnic.tech/Reactive-Support/</guid>
       </item>
     
       <item>
@@ -38,8 +38,8 @@
         <description>
 </description>
         <pubDate>Wed, 03 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Finger-Paint-View/</link>
-        <guid isPermaLink="true">http://localhost:4000/Finger-Paint-View/</guid>
+        <link>http://picnic.tech/Finger-Paint-View/</link>
+        <guid isPermaLink="true">http://picnic.tech/Finger-Paint-View/</guid>
       </item>
     
       <item>
@@ -47,8 +47,8 @@
         <description>
 </description>
         <pubDate>Tue, 02 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Pingdom-Probes/</link>
-        <guid isPermaLink="true">http://localhost:4000/Pingdom-Probes/</guid>
+        <link>http://picnic.tech/Pingdom-Probes/</link>
+        <guid isPermaLink="true">http://picnic.tech/Pingdom-Probes/</guid>
       </item>
     
       <item>
@@ -56,8 +56,8 @@
         <description>
 </description>
         <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Sherlock-Holmes/</link>
-        <guid isPermaLink="true">http://localhost:4000/Sherlock-Holmes/</guid>
+        <link>http://picnic.tech/Sherlock-Holmes/</link>
+        <guid isPermaLink="true">http://picnic.tech/Sherlock-Holmes/</guid>
       </item>
     
       <item>
@@ -65,8 +65,8 @@
         <description>
 </description>
         <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Salesforce-Connector/</link>
-        <guid isPermaLink="true">http://localhost:4000/Salesforce-Connector/</guid>
+        <link>http://picnic.tech/Salesforce-Connector/</link>
+        <guid isPermaLink="true">http://picnic.tech/Salesforce-Connector/</guid>
       </item>
     
       <item>
@@ -74,8 +74,8 @@
         <description>
 </description>
         <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Nep-Snowplow/</link>
-        <guid isPermaLink="true">http://localhost:4000/Nep-Snowplow/</guid>
+        <link>http://picnic.tech/Nep-Snowplow/</link>
+        <guid isPermaLink="true">http://picnic.tech/Nep-Snowplow/</guid>
       </item>
     
       <item>
@@ -83,8 +83,8 @@
         <description>
 </description>
         <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/Babelicious/</link>
-        <guid isPermaLink="true">http://localhost:4000/Babelicious/</guid>
+        <link>http://picnic.tech/Babelicious/</link>
+        <guid isPermaLink="true">http://picnic.tech/Babelicious/</guid>
       </item>
     
   </channel>
