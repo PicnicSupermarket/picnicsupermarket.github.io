@@ -8,8 +8,8 @@ Live at: [http://picnic.tech](http://picnic.tech)
 ## How to build locally
 1. Make sure you have bundler installed, if not run `gem install bundler`
 2. `> git clone git@github.com:PicnicSupermarket/picnicsupermarket.github.io.git`
-3. Run `bundle install` to install all dependencies
-4. `> cd picnicsupermarket.github.io`
+3. `> cd picnicsupermarket.github.io`
+4. Run `bundle install` to install all dependencies
 5. `> jekyll serve`
 6. View at `http://127.0.0.1:4000`
 
