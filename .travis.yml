@@ -2,7 +2,7 @@
 dist: trusty
 language: ruby
 rvm: 2.6.3
-install: gem install jekyll html-proofer
+install: gem install jekyll html-proofer bundler
 script: jekyll build && htmlproofer _site
 deploy:
   local_dir: _site
@@ -12,3 +12,10 @@ deploy:
   keep_history: true
   on:
     branch: master
+
+# Magical setting to make ruby build quicker
+sudo: false
+cache: bundler
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
