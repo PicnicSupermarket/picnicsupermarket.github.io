@@ -12,10 +12,3 @@ deploy:
   keep_history: true
   on:
     branch: master
-
-# Magical setting to make ruby build quicker
-sudo: false
-cache: bundler
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
