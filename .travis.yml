@@ -2,7 +2,7 @@
 dist: trusty
 language: ruby
 rvm: 2.6.3
-script: bundle exec jekyll build && bundle exec htmlproofer ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer _site
 deploy:
   local_dir: _site
   provider: pages
