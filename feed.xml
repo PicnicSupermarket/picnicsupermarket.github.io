@@ -7,6 +7,15 @@
     <atom:link href="http://picnic.tech/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Localicious</title>
+        <description>
+</description>
+        <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+        <link>http://picnic.tech/Localicious/</link>
+        <guid isPermaLink="true">http://picnic.tech/Localicious/</guid>
+      </item>
+    
+      <item>
         <title>Aegis</title>
         <description>
 </description>
@@ -76,15 +85,6 @@
         <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
         <link>http://picnic.tech/Nep-Snowplow/</link>
         <guid isPermaLink="true">http://picnic.tech/Nep-Snowplow/</guid>
-      </item>
-    
-      <item>
-        <title>Babelicious</title>
-        <description>
-</description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-        <link>http://picnic.tech/Babelicious/</link>
-        <guid isPermaLink="true">http://picnic.tech/Babelicious/</guid>
       </item>
     
   </channel>
