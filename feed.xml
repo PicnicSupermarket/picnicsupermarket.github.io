@@ -43,6 +43,15 @@
       </item>
     
       <item>
+        <title>Pull Request Leaderboard</title>
+        <description>
+</description>
+        <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+        <link>http://picnic.tech/Pull-Request-Leaderboard/</link>
+        <guid isPermaLink="true">http://picnic.tech/Pull-Request-Leaderboard/</guid>
+      </item>
+    
+      <item>
         <title>Reactive Support</title>
         <description>
 </description>
@@ -85,15 +94,6 @@
         <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
         <link>http://picnic.tech/Salesforce-Connector/</link>
         <guid isPermaLink="true">http://picnic.tech/Salesforce-Connector/</guid>
-      </item>
-    
-      <item>
-        <title>Nep-Snowplow</title>
-        <description>
-</description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-        <link>http://picnic.tech/Nep-Snowplow/</link>
-        <guid isPermaLink="true">http://picnic.tech/Nep-Snowplow/</guid>
       </item>
     
   </channel>
