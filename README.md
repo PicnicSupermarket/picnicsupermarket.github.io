@@ -2,7 +2,7 @@
 
 Showcasing our latest open-source projects.
 
-Live at: [http://picnic.tech](http://picnic.tech)
+Live at: [https://picnic.tech](https://picnic.tech)
 
 ## How to build locally
 
@@ -30,4 +30,4 @@ You can view the preview at `http://127.0.0.1:4000`
 
 - [GitHub Pages](https://pages.github.com/)
 - [Jekyll](https://jekyllrb.com/)
-- [Jekyll-grid theme](http://femmebot.github.io/jekyll-grid)
+- [Jekyll-grid theme](https://femmebot.github.io/jekyll-grid)
