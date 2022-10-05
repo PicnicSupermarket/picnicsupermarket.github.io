@@ -1,0 +1,40 @@
+name: Update `picnic.tech` website content
+on:
+  pull_request:
+  push:
+    branches: [ master ]
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3.1.0
+      - uses: ruby/setup-ruby@v1.117.0 # Ruby version set in `.ruby-version`.
+        with:
+          bundler-cache: true # Runs `bundle install` and caches installed gems automatically.
+      - name: Configure Github Pages
+        uses: actions/configure-pages@v2.1.1
+      - name: Build website with Jekyll
+        run: bundle exec jekyll build
+      - name: Validate HTML output
+        run: bundle exec htmlproofer ./_site
+      - name: Upload website as artifact
+        uses: actions/upload-pages-artifact@v1.0.4
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1.2.1
