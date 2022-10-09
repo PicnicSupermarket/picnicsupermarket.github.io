@@ -4,14 +4,18 @@ layout: home
 
 <div class="posts clearfix">
   {% for post in site.posts %}
-    <article class="post">    
-      <div class="eyebrow">{{ post.technology }}</div>
-      <h1><a href="{{ post.proj-url }}">{{ post.title }}</a></h1>
+  <article class="post">
+    <div class="eyebrow">{{ post.technology }}</div>
+    <h1><a href="{{ post.proj-url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        <p>{{ post.desc }}</p>
-        <img src="{{baseurl}}/images/{{ post.image }}" style="border: #959ba2 1px solid;" alt="{{post.title}}"/></a>
+    <div class="entry">
+      <p>{{ post.desc }}</p>
+      <div class="img-wrapper">
+        <a href="{{ post.proj-url }}">
+          <img src="{{baseurl}}/images/{{ post.image }}" alt="{{post.title}}" />
+        </a>
       </div>
-    </article>
+    </div>
+  </article>
   {% endfor %}
 </div>
